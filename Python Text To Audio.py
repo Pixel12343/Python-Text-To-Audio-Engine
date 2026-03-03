@@ -1,3 +1,9 @@
+# pip install pyttsx3
+
+# Depending on what python version you are using installation may be different for example i am using python3.12
+# my installation method is py -m pip install pyttsx3, may alsobe py3 -m pip install pyttsx3.
+# i have tested and ensure it works on 3.12 python
+
 import pyttsx3
 engine = pyttsx3.init()
 
@@ -9,3 +15,4 @@ engine.save_to_file(
 engine.runAndWait()
 
 print("Audio Saved Successfuly")
+
